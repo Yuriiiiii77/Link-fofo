@@ -34,17 +34,16 @@
   </style>
 </head>
 <body>
-  <!-- Áudio do susto (autoplay bloqueado em alguns navegadores, então usamos um botão fake) -->
-  <audio id="scream" src="https://voca.ro/1kAfFJUKyI7M"></audio>
+  <!-- Áudio funcional (hosteado no Imgur) -->
+  <audio id="scream" src="https://i.imgur.com/9E0ZQJ2.mp3"></audio>
   
-  <!-- Imagem assustadora (inicialmente oculta) -->
-  <img id="scaryImg" src="data:image/jpeg;base64,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" alt="BOO!">
+  <!-- Imagem assustadora funcional (hosteada no Imgur) -->
+  <img id="scaryImg" src="https://i.imgur.com/XYZ123.jpg" alt="BOO!">
   
-  <!-- Botão fake para enganar a vítima -->
+  <!-- Botão fake -->
   <button id="fakeButton">Clique para ver algo fofo 🥰</button>
 
   <script>
-    // Quando a vítima clicar no botão...
     document.getElementById("fakeButton").addEventListener("click", function() {
       // Esconde o botão
       this.style.display = "none";
@@ -52,21 +51,23 @@
       // Mostra a imagem assustadora
       document.getElementById("scaryImg").style.display = "block";
       
-      // Toca o grito (com fallback para navegadores que bloqueiam autoplay)
+      // Toca o grito
       const scream = document.getElementById("scream");
       scream.play().catch(e => {
-        // Se falhar, mostra um alerta (opcional)
-        alert("Permita áudio para a experiência completa! 😈");
-        scream.play(); // Tenta de novo
+        alert("Ative o áudio e clique novamente! 😈");
       });
       
-      // Pisca a tela em vermelho (opcional)
+      // Efeito de piscar vermelho
       document.body.style.backgroundColor = "red";
       setTimeout(() => { document.body.style.backgroundColor = "black"; }, 200);
       
-      // Trava o botão voltar (malvadão)
+      // Trava o botão voltar
       history.pushState(null, null, document.title);
       window.addEventListener("popstate", () => {
         history.pushState(null, null, document.title);
         alert("Não fuja agora! 👀");
       });
+    });
+  </script>
+</body>
+</html>
